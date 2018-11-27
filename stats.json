@@ -1,0 +1,28 @@
+Installing 'webpack-cli' (running 'npm install -D webpack-cli')...
++ webpack-cli@3.1.2
+added 21 packages from 7 contributors and audited 39391 packages in 7.916s
+found 0 vulnerabilities
+
+{
+  "errors": [
+    "Entry module not found: Error: Can't resolve './src' in '/home/rboschini/Workspace/ngFlipDiv3D'\nresolve './src' in '/home/rboschini/Workspace/ngFlipDiv3D'\n  using description file: /home/rboschini/Workspace/ngFlipDiv3D/package.json (relative path: .)\n    Field 'browser' doesn't contain a valid alias configuration\n    using description file: /home/rboschini/Workspace/ngFlipDiv3D/package.json (relative path: ./src)\n      no extension\n        Field 'browser' doesn't contain a valid alias configuration\n        /home/rboschini/Workspace/ngFlipDiv3D/src is not a file\n      .wasm\n        Field 'browser' doesn't contain a valid alias configuration\n        /home/rboschini/Workspace/ngFlipDiv3D/src.wasm doesn't exist\n      .mjs\n        Field 'browser' doesn't contain a valid alias configuration\n        /home/rboschini/Workspace/ngFlipDiv3D/src.mjs doesn't exist\n      .js\n        Field 'browser' doesn't contain a valid alias configuration\n        /home/rboschini/Workspace/ngFlipDiv3D/src.js doesn't exist\n      .json\n        Field 'browser' doesn't contain a valid alias configuration\n        /home/rboschini/Workspace/ngFlipDiv3D/src.json doesn't exist\n      as directory\n        existing directory\n          using path: /home/rboschini/Workspace/ngFlipDiv3D/src/index\n            using description file: /home/rboschini/Workspace/ngFlipDiv3D/package.json (relative path: ./src/index)\n              no extension\n                Field 'browser' doesn't contain a valid alias configuration\n                /home/rboschini/Workspace/ngFlipDiv3D/src/index doesn't exist\n              .wasm\n                Field 'browser' doesn't contain a valid alias configuration\n                /home/rboschini/Workspace/ngFlipDiv3D/src/index.wasm doesn't exist\n              .mjs\n                Field 'browser' doesn't contain a valid alias configuration\n                /home/rboschini/Workspace/ngFlipDiv3D/src/index.mjs doesn't exist\n              .js\n                Field 'browser' doesn't contain a valid alias configuration\n                /home/rboschini/Workspace/ngFlipDiv3D/src/index.js doesn't exist\n              .json\n                Field 'browser' doesn't contain a valid alias configuration\n                /home/rboschini/Workspace/ngFlipDiv3D/src/index.json doesn't exist"
+  ],
+  "warnings": [
+    "configuration\nThe 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.\nYou can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/concepts/mode/"
+  ],
+  "version": "4.19.1",
+  "hash": "34e98dbd28b2d8b4e99a",
+  "time": 48,
+  "builtAt": 1543276818825,
+  "publicPath": "",
+  "outputPath": "/home/rboschini/Workspace/ngFlipDiv3D/dist",
+  "assetsByChunkName": {},
+  "assets": [],
+  "filteredAssets": 0,
+  "entrypoints": {},
+  "namedChunkGroups": {},
+  "chunks": [],
+  "modules": [],
+  "filteredModules": 0,
+  "children": []
+}
